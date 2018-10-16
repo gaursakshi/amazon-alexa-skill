@@ -1,0 +1,45 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "dream facts",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetNewFactIntent",
+                    "slots": [],
+                    "samples": [
+                        "give me some dream information",
+                        "give me some information",
+                        "give me a dream trivia",
+                        "give me trivia",
+                        "a dream fact",
+                        "tell me a dream trivia",
+                        "give me a dream facts",
+                        "get the fact of the day",
+                        "tell me a new dream fact"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
